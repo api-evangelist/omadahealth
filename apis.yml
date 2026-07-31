@@ -1,8 +1,24 @@
 aid: omadahealth
-name: Omadahealth
-description: 'Omadahealth is a company surfaced as a portfolio company of norwest-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead
-  awaiting the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/omadahealth.png
+name: Omada Health
+description: 'Omada Health is a virtual-care company that delivers personalized, evidence-based
+  programs for managing and preventing chronic conditions including prediabetes, type 2 diabetes,
+  hypertension, and musculoskeletal (joint and muscle) health, plus GLP-1 support. Sold to
+  employers and health plans, Omada pairs human health coaches with connected smart devices and
+  a mobile app to drive measurable, scalable behavior change. Backed by Norwest Venture Partners.
+  No public developer API surface was found during enrichment; this profile captures the company''s
+  security, compliance, and public-web posture.'
 url: https://raw.githubusercontent.com/api-evangelist/omadahealth/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Unknown
+- Digital Health
+- Virtual Care
+- Chronic Disease Management
+- Diabetes
+- Hypertension
+- Telehealth
+- Health Plans
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +47,22 @@ maintainers:
 common:
 - type: Website
   url: https://omadahealth.com
+- type: PrivacyPolicy
+  url: https://www.omadahealth.com/privacy-policy
+- type: TermsOfService
+  url: https://www.omadahealth.com/terms-of-use
+- type: Blog
+  url: https://www.omadahealth.com/resource-center-latest
+- type: GitHubOrganization
+  url: https://github.com/omadahealth
+- type: TrustCenter
+  url: security/omadahealth-trust-center.yml
+- type: Compliance
+  url: https://trust.omadahealth.com/
+- type: DomainSecurity
+  url: security/omadahealth-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

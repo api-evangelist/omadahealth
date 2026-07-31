@@ -1,0 +1,31 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+source: https://trust.omadahealth.com/
+url: https://trust.omadahealth.com/
+platform: SafeBase
+certifications:
+- SOC 2 Type 2
+- HITRUST
+- HIPAA
+program:
+  hosting: Amazon Web Services
+  external_ratings:
+  - {name: SecurityScorecard, grade: A}
+  - {name: Qualys SSL Labs, grade: A+}
+  coverage:
+  - application security (penetration testing, vulnerability management)
+  - access controls
+  - endpoint management
+  - network security
+  - disaster recovery
+  - change management
+  - employee security awareness training
+evidence:
+- source: https://trust.omadahealth.com/
+  keywords:
+  - soc 2 type 2
+  - hitrust
+  - hipaa
+  - trust center
+  - safebase
